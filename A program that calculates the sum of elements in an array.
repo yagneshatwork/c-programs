@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() 
+{ 
+    int i = 0, j, my_array[6]; 
+    printf("input 6 integers for addition: "); 
+    for(j = 0; j < 6; j++) {
+        scanf("%d", &my_array[j]);  
+    }
+    for(j = 0; j < 6; j++) {
+        i += my_array[j]; 
+    }
+    printf("Addition of the 6 integers is: %d\n", i);
+    
+    return 0; 
+}
